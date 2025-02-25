@@ -1,30 +1,8 @@
-# React + TypeScript + Vite
+# Modern Gemini AI Chat Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+A sleek chat application for conversing with Gemini AI, featuring a minimalist design with message threading and image processing capabilities.
+Header bar with app title "Gemini Chat" and theme toggle button positioned in the top-right corner
+Message container showing alternating user/AI messages with avatar icons, timestamps, and subtle transition animations
+Sticky message input bar at bottom with expandable textarea, image upload button (with preview), and pulsing send button
+Responsive container layout with max-width 768px, dark/light themes using neutral color palette, and consistent 16px spacing
+Style Note: Use shadcn/ui components with slate-50 to slate-900 color scheme, subtle rounded corners (border-radius: 8px), and system font stack for clean typography
